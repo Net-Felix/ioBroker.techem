@@ -1,0 +1,23 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"login": {
+			"type": "text",
+			"label": "login",
+			"newLine": true
+		},
+		"password": {
+			"type": "password",
+			"label": "password",
+			"newLine": true
+		},
+		"interval": {
+			"type": "number",
+			"label": "interval",
+			"min": 1,
+			"max": 1440,
+			"newLine": true
+		}
+	}
+}

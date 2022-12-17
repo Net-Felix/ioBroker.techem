@@ -1,0 +1,87 @@
+{
+	"common": {
+		"name": "techem",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Techem",
+		"titleLang": {
+			"en": "Techem",
+			"de": "Techem",
+			"ru": "Техем",
+			"pt": "Techem",
+			"nl": "Techem",
+			"fr": "Techem",
+			"it": "Techem",
+			"es": "Techem",
+			"pl": "Techem",
+			"zh-cn": "科技"
+		},
+		"desc": {
+			"en": "Techem Mieter Verbrauchsdaten",
+			"de": "Techem Mieter Verbrauchsdaten",
+			"ru": "Techem Mieter Verbrauchsdaten",
+			"pt": "Techem Mieter Verbrauchsdaten",
+			"nl": "Techem Mieter Verbrauchsdaten",
+			"fr": "Techem Mieter Verbrauchsdaten",
+			"it": "Techem Mieter Verbrauchsdaten",
+			"es": "Techem Mieter Verbrauchsdaten",
+			"pl": "Techem Mieter Verbrauchsdaten",
+			"zh-cn": "Techem Mieter Verbrauchsdaten"
+		},
+		"authors": [
+			"NetFelix <felixamler@gmail.com>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "techem.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Net-Felix/ioBroker.techem/main/admin/techem.png",
+		"readme": "https://github.com/Net-Felix/ioBroker.techem/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"login": "",
+		"password": "",
+		"interval": 5
+	},
+	"objects": [],
+	"instanceObjects": []
+}
