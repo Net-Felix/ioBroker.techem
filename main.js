@@ -151,6 +151,24 @@ class Techem extends utils.Adapter {
 	 */
 	async onReady() {
 		// Initialize your adapter here
+
+		let obj = await adapter.getObjectAsync('info.connection');
+		if (!obj) {
+			obj = {
+				type: 'state',
+				common: {
+					name:  'Connection status',
+					role:  'indicator.connected',
+					write: false,
+					read:  true,
+					type:  'boolean',
+					def:   false,
+				},
+				native: {}
+	    	        };
+			await adapter.setObjectAsync('info.connection', obj);
+		}
+
 		this.setState("info.connection", { val: true, ack: true });
 		this.pollData();
 		// this.poller = setInterval(this.pollData.bind(this), this.config.interval * 60000);
