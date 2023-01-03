@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "news": {
+      "0.1.3": {
+        "en": "fixed type warning",
+        "de": "warnung vor festem typ",
+        "ru": "предупреждение фиксированного типа",
+        "pt": "aviso tipo fixo",
+        "nl": "vertaling:",
+        "fr": "avertissement de type fixe",
+        "it": "avviso di tipo fisso",
+        "es": "advertencia de tipo fijo",
+        "pl": "uszkodzenie",
+        "uk": "попередження фіксованого типу",
+        "zh-cn": "固定警告"
+      },
       "0.1.2": {
         "en": "fixed typo",
         "de": "fester typ",
