@@ -133,6 +133,7 @@ class Techem extends utils.Adapter {
 			this.log.warn('Could not extract data for heating');
 		}
 		await browser.close();
+		this.log.info('Parsing data successful');
 	}
 
 	checkPoll() {
