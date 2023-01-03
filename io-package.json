@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "news": {
+      "0.1.1": {
+        "en": "fixed error with missing state",
+        "de": "fehler behoben mit fehlendem zustand",
+        "ru": "исправленная ошибка с отсутствующим государством",
+        "pt": "erro fixo com estado ausente",
+        "nl": "vergissing",
+        "fr": "erreur fixe avec état manquant",
+        "it": "errore fisso con stato mancante",
+        "es": "error fijo con estado desaparecido",
+        "pl": "błąd stały z brakami stanu",
+        "uk": "виправлена помилка з відсутнім станом",
+        "zh-cn": "a. 固定错误"
+      },
       "0.1.0": {
         "en": "added errorhandling",
         "de": "fehlerbehebung",
