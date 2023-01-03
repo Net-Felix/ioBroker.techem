@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "news": {
+      "0.1.0": {
+        "en": "added errorhandling",
+        "de": "fehlerbehebung",
+        "ru": "добавлено errorhandling",
+        "pt": "adicionado manipulação de erro",
+        "nl": "errorhand",
+        "fr": "ajouté errorhandling",
+        "it": "gestione degli errori aggiunti",
+        "es": "error añadido",
+        "pl": "dodanie błędu",
+        "uk": "додана помилкаhandling",
+        "zh-cn": "增加错误"
+      },
       "0.0.2": {
         "en": "initial release",
         "de": "erstausstrahlung",
