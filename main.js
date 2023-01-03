@@ -152,22 +152,18 @@ class Techem extends utils.Adapter {
 	async onReady() {
 		// Initialize your adapter here
 
-		let obj = await adapter.getObjectAsync('info.connection');
-		if (!obj) {
-			obj = {
-				type: 'state',
-				common: {
-					name:  'Connection status',
-					role:  'indicator.connected',
-					write: false,
-					read:  true,
-					type:  'boolean',
-					def:   false,
-				},
-				native: {}
-	    	        };
-			await adapter.setObjectAsync('info.connection', obj);
-		}
+		await this.setObjectNotExistsAsync('info.connection', {
+			type: 'state',
+			common: {
+				name: 'Connection status',
+				write: false,
+				read: true,
+				type: 'boolean',
+				role: 'indicator.connected',
+				def: false
+			},
+			native: {},
+		});
 
 		this.setState("info.connection", { val: true, ack: true });
 		this.pollData();

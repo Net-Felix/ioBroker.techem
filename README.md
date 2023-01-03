@@ -20,6 +20,9 @@ Techem Mieter Verbrauchsdaten
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (NetFelix) fixed typo
+
 ### 0.1.1 (2023-01-03)
 * (NetFelix) fixed error with missing state
 
