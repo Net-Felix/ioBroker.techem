@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "news": {
+      "0.1.4": {
+        "en": "addedd success message",
+        "de": "erfolgsnachricht hinzugefügt",
+        "ru": "добавлено успешное сообщение",
+        "pt": "mensagem de sucesso adicionado",
+        "nl": "vertaling:",
+        "fr": "message de succès ajouté",
+        "it": "messaggio di successo aggiunto",
+        "es": "mensaje de éxito añadido",
+        "pl": "dodać sukces",
+        "uk": "додано повідомлення про успіх",
+        "zh-cn": "增加成功信息"
+      },
       "0.1.3": {
         "en": "fixed type warning",
         "de": "warnung vor festem typ",
