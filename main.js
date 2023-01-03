@@ -123,12 +123,12 @@ class Techem extends utils.Adapter {
 
 		// Write states
 		if (water != null && water[1] != null) {
-			await this.setStateAsync('Verbrauch_Warmwasser', { val: water[1], ack: true });
+			await this.setStateAsync('Verbrauch_Warmwasser', { val: parseFloat(water[1]), ack: true });
 		} else {
 			this.log.warn('Could not extract data for warm water');
 		}
 		if (heating != null && heating[1] != null) {
-			await this.setStateAsync('Verbrauch_Heizung', { val: heating[1], ack: true });
+			await this.setStateAsync('Verbrauch_Heizung', { val: parseFloat(heating[1]), ack: true });
 		} else {
 			this.log.warn('Could not extract data for heating');
 		}
