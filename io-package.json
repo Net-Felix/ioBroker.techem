@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "news": {
+      "0.1.2": {
+        "en": "fixed typo",
+        "de": "fester typ",
+        "ru": "фиксированная typo",
+        "pt": "tipografia fixa",
+        "nl": "typo gemaakt",
+        "fr": "typo fixe",
+        "it": "tipo fisso",
+        "es": "tipo fijo",
+        "pl": "typy stały",
+        "uk": "фіксований тип",
+        "zh-cn": "固定类型"
+      },
       "0.1.1": {
         "en": "fixed error with missing state",
         "de": "fehler behoben mit fehlendem zustand",
