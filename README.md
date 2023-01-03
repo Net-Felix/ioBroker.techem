@@ -21,6 +21,7 @@ Techem Mieter Verbrauchsdaten
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+* (NetFelix) added errorhandling
 
 ### 0.0.2 (2022-12-17)
 * (NetFelix) initial release
