@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "news": {
+      "0.1.5": {
+        "en": "ensure browser is closed",
+        "de": "sicherstellen, dass der browser geschlossen ist",
+        "ru": "гарантировать, что браузер закрыт",
+        "pt": "garantir que o navegador esteja fechado",
+        "nl": "zorg dat browser gesloten is",
+        "fr": "assurer que le navigateur est fermé",
+        "it": "assicurarsi che il browser sia chiuso",
+        "es": "asegurar que el navegador está cerrado",
+        "pl": "przeglądarka jest zamknięta",
+        "uk": "замкнути браузер",
+        "zh-cn": "确保行李被关闭"
+      },
       "0.1.4": {
         "en": "addedd success message",
         "de": "erfolgsnachricht hinzugefügt",
@@ -80,18 +93,6 @@
         "pl": "pierwsze wydanie",
         "uk": "початковий реліз",
         "zh-cn": "初步释放"
-      },
-      "0.0.1": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "zh-cn": "首次出版"
       }
     },
     "title": "Techem",
