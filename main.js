@@ -39,6 +39,8 @@ class Techem extends utils.Adapter {
 			await page.setViewport({ width: 1920, height: 1080 });
 		} catch (err) {
 			this.log.error(`Could not start new Browser instance: ${err}`);
+			await browser.close();
+			if (browser && browser.process() != null) browser.process().kill('SIGINT');
 			return;
 		}
 
@@ -48,6 +50,8 @@ class Techem extends utils.Adapter {
 			await page.goto(this.homepage, { waitUntil: ['networkidle2'] });
 		} catch (err) {
 			this.log.error(`Error opening page ${this.homepage}`);
+			await browser.close();
+			if (browser && browser.process() != null) browser.process().kill('SIGINT');
 			return;
 		}
 
@@ -74,6 +78,8 @@ class Techem extends utils.Adapter {
 			await page.waitForNavigation({ waitUntil: ['networkidle2'] });
 		} catch (err) {
 			this.log.error('Unable to go to login page...');
+			await browser.close();
+			if (browser && browser.process() != null) browser.process().kill('SIGINT');
 			return;
 		}
 
@@ -86,6 +92,8 @@ class Techem extends utils.Adapter {
 			await page.waitForNavigation({ waitUntil: ['networkidle2'] });
 		} catch (err) {
 			this.log.error('Unable to log in');
+			await browser.close();
+			if (browser && browser.process() != null) browser.process().kill('SIGINT');
 			return;
 		}
 
@@ -133,6 +141,7 @@ class Techem extends utils.Adapter {
 			this.log.warn('Could not extract data for heating');
 		}
 		await browser.close();
+		if (browser && browser.process() != null) browser.process().kill('SIGINT');
 		this.log.info('Parsing data successful');
 	}
 
