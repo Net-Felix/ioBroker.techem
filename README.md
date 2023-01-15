@@ -20,6 +20,8 @@ Techem Mieter Verbrauchsdaten
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (NetFelix) lint fixes
 ### 0.1.5 (2023-01-14)
 * (NetFelix) ensure browser is closed
 

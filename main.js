@@ -146,14 +146,13 @@ class Techem extends utils.Adapter {
 	}
 
 	checkPoll() {
-		this.setState("info.connection", { val: true, ack: true });
+		this.setState('info.connection', { val: true, ack: true });
 		if (this.counter >= this.config.interval * 60) {
 			this.pollData();
 			this.counter = 0;
 		} else {
 			this.counter = this.counter + 1;
 		}
-			
 	}
 
 	/**
@@ -175,7 +174,7 @@ class Techem extends utils.Adapter {
 			native: {},
 		});
 
-		this.setState("info.connection", { val: true, ack: true });
+		this.setState('info.connection', { val: true, ack: true });
 		this.pollData();
 		// this.poller = setInterval(this.pollData.bind(this), this.config.interval * 60000);
 		this.poller = setInterval(this.checkPoll.bind(this), 1000);
