@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "techem",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "news": {
+      "0.1.6": {
+        "en": "lint fixes",
+        "de": "lint fixes",
+        "ru": "lint исправления",
+        "pt": "lint correções",
+        "nl": "lint fixes",
+        "fr": "lint corrige",
+        "it": "sistema di fissaggio",
+        "es": "lint fixes",
+        "pl": "lint naprawia",
+        "uk": "застібка фіксатора",
+        "zh-cn": "固定"
+      },
       "0.1.5": {
         "en": "ensure browser is closed",
         "de": "sicherstellen, dass der browser geschlossen ist",
@@ -80,19 +93,6 @@
         "pl": "dodanie błędu",
         "uk": "додана помилкаhandling",
         "zh-cn": "增加错误"
-      },
-      "0.0.2": {
-        "en": "initial release",
-        "de": "erstausstrahlung",
-        "ru": "начальный выпуск",
-        "pt": "lançamento inicial",
-        "nl": "niet",
-        "fr": "initial release",
-        "it": "rilascio iniziale",
-        "es": "liberación inicial",
-        "pl": "pierwsze wydanie",
-        "uk": "початковий реліз",
-        "zh-cn": "初步释放"
       }
     },
     "title": "Techem",
